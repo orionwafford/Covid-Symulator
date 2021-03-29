@@ -14,7 +14,7 @@ public enum InfectionType
     Sick
 }
 
-public class Infection : MonoBehaviour
+public class Infection : MonoBehaviour //yo
 {
     public GameManager manager;
 

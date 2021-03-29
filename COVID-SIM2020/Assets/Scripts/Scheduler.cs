@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Scheduler : MonoBehaviour
 {
-    public static Scheduler _instance;
+    public static Scheduler _instance;//yo
 
     [SerializeField]
     private List<GameObject> localPeople = new List<GameObject>();
