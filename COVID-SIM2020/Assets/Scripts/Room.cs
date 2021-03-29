@@ -15,7 +15,7 @@ public class Room : MonoBehaviour
 
     public int currentPeopleInRoom = 0;
 
-    LayerMask mask;
+    LayerMask mask; //mask is the mask
 
     // Start is called before the first frame update
     void Start()
