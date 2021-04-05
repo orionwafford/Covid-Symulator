@@ -15,13 +15,17 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - .collabignore
+    - Assets/Materials/Floor.mat
+    - Assets/Materials/Floor.mat.meta
+    - Assets/Materials/Wall.mat
+    - Assets/Materials/Wall.mat.meta
     - Assets/Scenes/Scene1/Scene1.unity
     - Assets/Scenes/Scene1/Scene1.unity.meta
     - Packages/manifest.json
     - Packages/packages-lock.json
     - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 00000000000000
+    m_Values: 0000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
