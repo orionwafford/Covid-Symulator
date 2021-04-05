@@ -15,17 +15,11 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - .collabignore
-    - Assets/PNG/Black/2x/fastForward.png
-    - Assets/PNG/Black/2x/fastForward.png.meta
-    - Assets/PNG/Black/2x/pause.png
-    - Assets/PNG/Black/2x/pause.png.meta
-    - Assets/PNG/Black/2x/right.png
-    - Assets/PNG/Black/2x/right.png.meta
     - Packages/manifest.json
     - Packages/packages-lock.json
     - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 0000000000000000000000
+    m_Values: 0000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
