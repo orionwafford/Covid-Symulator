@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class LevelEditor : MonoBehaviour
 {
+// desided not to do it 
+    public GameObject room;
+    public GameObject door;
+
+    Vector3 mousePos = Input.mousePosition;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +29,7 @@ public class LevelEditor : MonoBehaviour
 
     private void PlaceDoor()
     {
-
+        
     }
 
     private void PlaceRoom()
