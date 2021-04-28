@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
 
     public TextMeshProUGUI txtPeriod;
     public TextMeshProUGUI txtDay;
+    public TextMeshProUGUI txtSpeed;
 
     public TextMeshProUGUI txtPrevNotInf;
     public TextMeshProUGUI txtPrevPotentialInf;
@@ -67,6 +68,7 @@ public class UIManager : MonoBehaviour
 
         txtPeriod.text = "Period " + (GameManager._instance.currentPeriod + 1);
         txtDay.text = "Day " + GameManager._instance.currentDay;
+        txtSpeed.text = "Speed: x" + GameManager._instance.currentSpeed;
 
         string symbol = "";
         int infectionDif = (GameManager._instance.start_notInfected - GameManager._instance.notInfected);

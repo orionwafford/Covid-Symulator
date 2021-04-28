@@ -71,6 +71,11 @@ public class GameManager : MonoBehaviour
     public int start_fullyInfected;
     [HideInInspector]
     public int start_sick;
+    [HideInInspector]
+    public float applicationSpeed = 1;
+    [HideInInspector]
+    public float currentSpeed = 1;
+
 
     private bool dayEnding = false;
     void Awake()
@@ -320,7 +325,42 @@ public class GameManager : MonoBehaviour
 
     public void Button_ChangeTimeScale(float speed)
     {
-        Time.timeScale = speed;
+        //Send in 0 if speed is is normal
+        //Send in 1 if speed wants to be increased.
+        //x1, x1.5, x2 x3
+
+
+        if(speed <= 0){
+            speed = 1;
+        }
+        else if(speed >= 1){
+            speed = (float)Math.Ceiling(Time.timeScale + 1); 
+        }
+        
+        if(currentSpeed == 2){
+            speed = 4;
+        }
+
+
+        switch(speed){
+            case 1:
+                currentSpeed = 1;
+                break;
+            case 2:
+                currentSpeed = 1.5f;
+                break;
+            case 3:
+                currentSpeed = 2;
+                break;
+            case 4:
+                currentSpeed = 3;
+                break;
+            default:
+              currentSpeed = 1;
+              break;
+        }
+        
+        Time.timeScale = currentSpeed;
     }
 
     public void Button_StartSim()
