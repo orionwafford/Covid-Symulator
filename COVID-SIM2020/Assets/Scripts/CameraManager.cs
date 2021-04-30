@@ -6,13 +6,13 @@ public class CameraManager : MonoBehaviour
 {
     LayerMask myMask;
 
-    Vector3 basePosOffest = new Vector3(0, 116, -6);
-    Vector3 baseRotOffest = new Vector3(90, 0, 0);
+    public Vector3 basePosOffest = new Vector3(0, 116, -6);
+    public Vector3 baseRotOffest = new Vector3(90, 0, 0);
 
-    Vector3 zoomCap = new Vector2(50, 116);
+    public Vector3 zoomCap = new Vector2(50, 116);
 
-    Vector3 personPosOffest = new Vector3(3, 25, 0);
-    Vector3 personRotOffest = new Vector3(90, 0, 0);
+    public Vector3 personPosOffest = new Vector3(3, 25, -5);
+    public Vector3 personRotOffest = new Vector3(50, 0, 0);
 
     bool isFocused;
 

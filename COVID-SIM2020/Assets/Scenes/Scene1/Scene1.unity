@@ -10360,6 +10360,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bcc291b2db022548aa1e9219d45aa9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basePosOffest: {x: 0, y: 116, z: -6}
+  baseRotOffest: {x: 90, y: 0, z: 0}
+  zoomCap: {x: 50, y: 116, z: 0}
+  personPosOffest: {x: 0, y: 25, z: -5}
+  personRotOffest: {x: 50, y: 0, z: 0}
 --- !u!1 &1697095751
 GameObject:
   m_ObjectHideFlags: 0
