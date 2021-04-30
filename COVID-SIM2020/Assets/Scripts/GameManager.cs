@@ -329,8 +329,10 @@ public class GameManager : MonoBehaviour
         //Send in 1 if speed wants to be increased.
         //x1, x1.5, x2 x3
 
-
-        if(speed <= 0){
+        if(speed == -1){
+            speed = 0;
+        }
+        else if(speed == 0){
             speed = 1;
         }
         else if(speed >= 1){
@@ -343,6 +345,9 @@ public class GameManager : MonoBehaviour
 
 
         switch(speed){
+            case 0:
+                currentSpeed = 0;
+                break;
             case 1:
                 currentSpeed = 1;
                 break;
